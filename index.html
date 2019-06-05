@@ -6,6 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Alex Evers - Web Developer</title>
 
+  <!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="contact/images/icons/favicon.ico" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/vendor/animate/animate.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/vendor/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/vendor/animsition/css/animsition.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/vendor/daterangepicker/daterangepicker.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="contact/css/util.css">
+  <link rel="stylesheet" type="text/css" href="contact/css/main.css">
+  <!--===============================================================================================-->
+
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -28,21 +49,11 @@
         </div>
         <div class="row center info-links-container">
           <a href="https://www.linkedin.com/in/alex-evers-3143054a/" target="_blank"
-            class="btn-large waves-effect waves-light">Linkedin</a>
+            class="btn-large waves-effect waves-light info-button">Linkedin</a>
           <a href="https://github.com/aevers3" target="_blank"
-            class="btn-large waves-effect waves-light lighten-1">Github</a>
+            class="btn-large waves-effect waves-light info-button">Github</a>
           <a href="files/Alex_Evers_Resume_2018.pdf" target="_blank"
-            class="btn-large waves-effect waves-light lighten-1">Resumé</a>
-        </div>
-        <div class="row center contact-links-container">
-          <div class="col s12 m6">
-            <h5 class="light">Email</h5>
-            <p><a href="mailto:aevers365@gmail.com" class="contact-link">aevers365@gmail.com</a></p>
-          </div>
-          <div class="col s12 m6">
-            <h5 class="light">Phone</h5>
-            <p><a href="mailto:aevers365@gmail.com" class="contact-link">(215)589-8128</a></p>
-          </div>
+            class="btn-large waves-effect waves-light info-button">Resumé</a>
         </div>
         <br><br>
 
@@ -79,6 +90,16 @@
             <p class="light">I
               consider myself a lifelong learner in both my professional and personal lives. Some of my
               hobbies aside from coding include playing guitar and bass, cooking, and photography.</p>
+            <div class="row center contact-links-container">
+              <div class="col s12 m6">
+                <h5 class="light">Email</h5>
+                <p><a href="mailto:aevers365@gmail.com" class="contact-link">aevers365@gmail.com</a></p>
+              </div>
+              <div class="col s12 m6">
+                <h5 class="light">Phone</h5>
+                <p><a href="mailto:aevers365@gmail.com" class="contact-link">(215)589-8128</a></p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -91,7 +112,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h3 class="header col s12 light portfolio-header">Stuff I've Made</h4>
+          <h3 class="header col s12 light portfolio-header">Stuff I've Made...</h4>
         </div>
       </div>
     </div>
@@ -105,31 +126,28 @@
   <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12">
-          <div class="icon-block">
-            <!-- <h4 class="center section-header">Stuff I've Made</h4> -->
-          </div>
-        </div>
-      </div>
-
 
       <div class="row portfolio-items-container">
 
         <!-- Fetchr -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/fetchr.jpg">
-              <!-- <span class="card-title">Fetchr</span> -->
-            </div>
+            <a href="https://penn-project2.herokuapp.com/" target="_blank">
+              <div class="card-image">
+                <img src="images/fetchr.jpg" class="image-transition">
+                <!-- <span class="card-title">Fetchr</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>A full-stack app, built with 3 others, to help users find the right adoptable dog in their local area.
               </p>
             </div>
+            <a href="https://github.com/kchaplick/project2" target="_blank">
+              <div class="card-action center project-button-container">
+                <span>Github Repo</span>
+              </div>
+            </a>
             <div class="card-action center project-button-container">
-              <a href="https://github.com/kchaplick/project2" target="_blank">Github Repo</a>
               <a href="https://penn-project2.herokuapp.com/" target="_blank">Deployed App</a>
             </div>
           </div>
@@ -138,16 +156,20 @@
         <!-- The Midas Project -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/midas-project.jpg">
-              <!-- <span class="card-title">The Midas Project</span> -->
-            </div>
+            <a href="https://jrbricafort.github.io/The-Midas-Project/" target="_blank">
+              <div class="card-image">
+                <img src="images/midas-project.jpg">
+                <!-- <span class="card-title">The Midas Project</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>Built with 3 other developers, this app displays current stock data and
                 relevant news articles for searched companies.</p>
             </div>
             <div class="card-action center project-button-container">
               <a href="https://github.com/jrbricafort/The-Midas-Project" target="_blank">Github Repo</a>
+            </div>
+            <div class="card-action center project-button-container">
               <a href="https://jrbricafort.github.io/The-Midas-Project/" target="_blank">Deployed App</a>
             </div>
           </div>
@@ -156,15 +178,19 @@
         <!-- Train Scheduling App -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/train-schedule.jpg">
-              <!-- <span class="card-title">Train Scheduling App</span> -->
-            </div>
+            <a href="https://aevers3.github.io/train-schedule/" target="_blank">
+              <div class="card-image">
+                <img src="images/train-schedule.jpg">
+                <!-- <span class="card-title">Train Scheduling App</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>Add trains to a schedule and keep track of arrival times using Moment.js</p>
             </div>
             <div class="card-action center project-button-container">
               <a href="https://github.com/aevers3/train-schedule" target="_blank">Github Repo</a>
+            </div>
+            <div class="card-action center project-button-container">
               <a href="https://aevers3.github.io/train-schedule/" target="_blank">Deployed App</a>
             </div>
           </div>
@@ -173,15 +199,19 @@
         <!-- Planet Trivia -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/planet-trivia.jpg">
-              <!-- <span class="card-title">Planet Trivia</span> -->
-            </div>
+            <a href="https://aevers3.github.io/TriviaGame/index.html" target="_blank">
+              <div class="card-image">
+                <img src="images/planet-trivia.jpg">
+                <!-- <span class="card-title">Planet Trivia</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>Test your trivia knowledge with this timed quiz!</p>
             </div>
             <div class="card-action center project-button-container">
               <a href="https://github.com/aevers3/TriviaGame" target="_blank">Github Repo</a>
+            </div>
+            <div class="card-action center project-button-container">
               <a href="https://aevers3.github.io/TriviaGame/index.html" target="_blank">Deployed App</a>
             </div>
           </div>
@@ -190,15 +220,20 @@
         <!-- Bamazon -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/bamazon.jpg">
-              <!-- <span class="card-title">Bamazon</span> -->
-            </div>
+            <a href="https://github.com/aevers3/bamazon" target="_blank">
+              <div class="card-image">
+                <img src="images/bamazon.jpg">
+                <!-- <span class="card-title">Bamazon</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>A CLI node app that tracks product inventories through purchases, updates, and product additions.</p>
             </div>
             <div class="card-action center project-button-container">
               <a href="https://github.com/aevers3/bamazon" target="_blank">Github Repo</a>
+            </div>
+            <div class="card-action center project-button-container">
+              <a>(No Deployment Option)</a>
             </div>
           </div>
         </div>
@@ -206,15 +241,19 @@
         <!-- Magic Gif-R-ator -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/gif-r-ator.jpg">
-              <!-- <span class="card-title">Magic Gif-R-ator</span> -->
-            </div>
+            <a href="https://aevers3.github.io/Unit-6-Assignment/" target="_blank">
+              <div class="card-image">
+                <img src="images/gif-r-ator.jpg">
+                <!-- <span class="card-title">Magic Gif-R-ator</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>Click on the food buttons to summon related gifs to the page!</p>
             </div>
             <div class="card-action center project-button-container">
               <a href="https://github.com/aevers3/Unit-6-Assignment" target="_blank">Github Repo</a>
+            </div>
+            <div class="card-action center project-button-container">
               <a href="https://aevers3.github.io/Unit-6-Assignment/" target="_blank">Deployed App</a>
             </div>
           </div>
@@ -223,15 +262,19 @@
         <!-- Crystal Collector -->
         <div class="col s12 m4 l4 portfolio-item">
           <div class="card">
-            <div class="card-image">
-              <img src="images/crystal-collector.jpg">
-              <!-- <span class="card-title">Crystal Collector</span> -->
-            </div>
+            <a href="https://aevers3.github.io/unit-4-game/" target="_blank">
+              <div class="card-image">
+                <img src="images/crystal-collector.jpg">
+                <!-- <span class="card-title">Crystal Collector</span> -->
+              </div>
+            </a>
             <div class="card-content">
               <p>An addition-based puzzle game.</p>
             </div>
             <div class="card-action center project-button-container">
               <a href="https://github.com/aevers3/unit-4-game" target="_blank">Github Repo</a>
+            </div>
+            <div class="card-action center project-button-container">
               <a href="https://aevers3.github.io/unit-4-game/" target="_blank">Deployed App</a>
             </div>
           </div>
@@ -242,6 +285,58 @@
   </div>
   </div>
 
+  <!-- Contact form -->
+  <!-- <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="container-contact100">
+
+          <div class="wrap-contact100">
+            <form class="contact100-form validate-form">
+              <h4 class="contact100-form-title">
+                Get In Touch!
+              </h4>
+
+              <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                <input class="input100" type="text" name="name" placeholder="Full Name">
+                <span class="focus-input100"></span>
+              </div>
+
+              <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+                <input class="input100" type="text" name="email" placeholder="E-mail">
+                <span class="focus-input100"></span>
+              </div>
+
+              <div class="wrap-input100 validate-input" data-validate="Please enter your phone">
+                <input class="input100" type="text" name="phone" placeholder="Phone">
+                <span class="focus-input100"></span>
+              </div>
+
+              <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                <span class="focus-input100"></span>
+              </div>
+
+              <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+                  <span>
+                    <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                    Send
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="parallax-tint"></div>
+      <img src="images/15096256095_501a857712_k.jpg" alt="Unsplashed background img 2">
+    </div>
+  </div> -->
+
+  <!-- Footer -->
   <footer class="page-footer orange lighten-1">
     <div class="footer-copyright">
       <div class="container center">
