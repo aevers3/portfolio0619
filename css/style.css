@@ -100,12 +100,10 @@ h1 {
 }
 
 /* contact info */
-/* .contact-links-container {
+.contact-links-container h5 {
+  color: #666;
+}  
   
-}
-
-.contact-link {
-} */
 
 /* Project list */
 .portfolio-items-container {
